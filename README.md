@@ -19,12 +19,12 @@ Then you can not find docker_default when execute apparmor_status<br>
 ### (4) Backup copy /sbin/apparmor_parser
 cp -p /sbin/apparmor_parser /tmp/docker/apparmor_parser.bk
 
-### (3) Copy the new apparmor_parser to /sbin/
+### (5) Copy the new apparmor_parser to /sbin/
 
-### (5) Create a container
+### (6) Create a container
 docker run -it --rm 4179ca8f538c bash
 
-### (6) You can obtain the real docker_default in /tmp/docker/
+### (7) You can obtain the real docker_default in /tmp/docker/
 ![image](https://user-images.githubusercontent.com/24563500/188606514-04f0a864-ecca-443c-a1ef-477b94ff3da1.png)
 
-### (7) Don't forget to restore the environment
+### (8) Don't forget to restore the environment
