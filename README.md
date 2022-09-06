@@ -14,6 +14,7 @@ cp -p /sbin/apparmor_parser /sbin/apparmor_parser.bk
 then you can not find docker_default when execute apparmor_status
 
 ### (5) Create a container
+After v1.13, Docker now generates docker-default in tmpfs, loads it into the kernel using apparmor_parser, and deletes the file.
 
 ### (6) You can obtain the real docker_default in /tmp/docker/
 ![image](https://user-images.githubusercontent.com/24563500/188606514-04f0a864-ecca-443c-a1ef-477b94ff3da1.png)
