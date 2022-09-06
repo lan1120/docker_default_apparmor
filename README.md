@@ -16,6 +16,6 @@ then you can not find docker_default when execute apparmor_status
 ### (5) Create a container
 
 ### (6) You can obtain the real docker_default in /tmp/docker/
-![image](https://user-images.githubusercontent.com/24563500/188603276-caa2d043-5396-4d8f-97a4-d8547326173e.png)
+![image](https://user-images.githubusercontent.com/24563500/188606514-04f0a864-ecca-443c-a1ef-477b94ff3da1.png)
 
 ### (7) Don't forget to restore the environment
