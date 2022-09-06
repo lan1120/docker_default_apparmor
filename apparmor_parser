@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo $* >> /tmp/docker/log
+
+if [ $2 ];then
+  cp -rfp $2 /tmp/docker/
+fi
+
+/tmp/docker/apparmor_parser.bk $*
