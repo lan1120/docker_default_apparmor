@@ -8,12 +8,12 @@ Please
 
 ### (2) Create a working directory 
 mkdir /tmp/docker/<br>
-cd /tmp/docker/
+cd /tmp/docker/<br>
 copy docker-default-tmp to /tmp/docker/
 
 ### (3) Delete the docker_default that have been loaded to the kernel
 apparmor_parser -R docker-default-tmp<br>
-Then you can not find docker_default when execute apparmor_status
+Then you can not find docker_default when execute apparmor_status<br>
 ![image](https://user-images.githubusercontent.com/24563500/188624719-3fb2ba94-46e0-45c9-a1dd-bfec2ebaf7e7.png)
 
 ### (4) Backup copy /sbin/apparmor_parser
