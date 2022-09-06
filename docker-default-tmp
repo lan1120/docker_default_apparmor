@@ -1,5 +1,0 @@
-profile docker-default flags=(attach_disconnected,mediate_deleted) {
-  network,
-  capability,
-  file,
-}
