@@ -1,5 +1,6 @@
 # docker_default_apparmor
-Help you to obtain docker default_apparmor!
+After v1.13, Docker now generates docker-default in tmpfs, loads it into the kernel using apparmor_parser, and deletes the file.
+Help you to obtain docker-default apparmor!
 
 ### (1) Create a working directory 
 mkdir /tmp/docker/
